@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.sb.noteapp.R;
 
-public class MainActivity extends AppCompatActivity {
+public class DashboardActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
