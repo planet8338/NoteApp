@@ -4,11 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".v1.Activity.DashboardActivity">
 
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+    <include
+        android:id="@+id/note"
+        layout="@layout/note" />
+
+    </ScrollView>
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnAdd"
